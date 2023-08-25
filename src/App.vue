@@ -116,7 +116,8 @@ import { ref } from 'vue';
 const tarjetas = ref([
 
   {
-    img: 'src/assets/images/img1.jpg',
+    
+    img: img1, 
     text: "Xiaomi redmi Note 10s",
     text2: "Precio: 950.000",
     precio: 950000,
@@ -128,7 +129,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img2.jpg',
+    
+    img: img2,
     text: "Xiaomi 11T Pro",
     text2: "Precio: 1.350.000",
     precio: 1350000,
@@ -140,7 +142,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img1.jpg',
+    
+    img: img1,
     text: "Xiaomi redmi Note 10",
     text2: "Precio: 950.000",
     precio: 1350000,
@@ -152,7 +155,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img2.jpg',
+    
+    img: img2,
     text: "Xiaomi 11T Pr",
     text2: "Precio: 1.350.000",
     precio: 1350000,
@@ -164,7 +168,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img1.jpg',
+    
+    img: img1,
     text: "Xiaomi redmi Nte 10s",
     text2: "Precio: 950.000",
     precio: 1350000,
@@ -176,7 +181,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img2.jpg',
+    
+    img: img2,
     text: "Xiami 11T Pro",
     text2: "Precio: 1.350.000",
     precio: 1350000,
@@ -188,7 +194,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img1.jpg',
+    
+    img: img1,
     text: "Xiaomi redm Note 10s",
     text2: "Precio: 950.000",
     precio: 1350000,
@@ -200,7 +207,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img2.jpg',
+    
+    img: img2,
     text: "Xiaomi 1 Pro",
     text2: "Precio: 1.350.000",
     precio: 1350000,
@@ -212,7 +220,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img1.jpg',
+    
+    img: img1,
     text: "Xiaomi remi ote 10s",
     text2: "Precio: 950.000",
     precio: 1350000,
@@ -224,7 +233,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img2.jpg',
+    
+    img: img2,
     text: "Xiaomi 11T o",
     text2: "Precio: 1.350.000",
     precio: 1350000,
@@ -236,7 +246,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img1.jpg',
+    
+    img: img1,
     text: "Xiami edmi Note 10s",
     text2: "Precio: 950.000",
     precio: 1350000,
@@ -248,7 +259,8 @@ const tarjetas = ref([
   },
 
   {
-    img: 'src/assets/images/img2.jpg',
+    
+    img: img2,
     text: "Xaomi 11T Pro",
     text2: "Precio: 1.350.000",
     precio: 1350000,
@@ -260,6 +272,9 @@ const tarjetas = ref([
   },
 
 ])
+import img1 from "./assets/images/img1.jpg";
+import img2 from "./assets/images/img2.jpg";
+
 </script>
 
 <style scoped>
