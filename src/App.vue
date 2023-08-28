@@ -116,8 +116,8 @@ import { ref } from 'vue';
 const tarjetas = ref([
 
   {
-    
-    img: img1, 
+
+    img: img1,
     text: "Xiaomi redmi Note 10s",
     text2: "Precio: 950.000",
     precio: 950000,
@@ -129,7 +129,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img2,
     text: "Xiaomi 11T Pro",
     text2: "Precio: 1.350.000",
@@ -142,7 +142,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img1,
     text: "Xiaomi redmi Note 10",
     text2: "Precio: 950.000",
@@ -155,7 +155,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img2,
     text: "Xiaomi 11T Pr",
     text2: "Precio: 1.350.000",
@@ -168,7 +168,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img1,
     text: "Xiaomi redmi Nte 10s",
     text2: "Precio: 950.000",
@@ -181,7 +181,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img2,
     text: "Xiami 11T Pro",
     text2: "Precio: 1.350.000",
@@ -194,7 +194,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img1,
     text: "Xiaomi redm Note 10s",
     text2: "Precio: 950.000",
@@ -207,7 +207,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img2,
     text: "Xiaomi 1 Pro",
     text2: "Precio: 1.350.000",
@@ -220,7 +220,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img1,
     text: "Xiaomi remi ote 10s",
     text2: "Precio: 950.000",
@@ -233,7 +233,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img2,
     text: "Xiaomi 11T o",
     text2: "Precio: 1.350.000",
@@ -246,7 +246,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img1,
     text: "Xiami edmi Note 10s",
     text2: "Precio: 950.000",
@@ -259,7 +259,7 @@ const tarjetas = ref([
   },
 
   {
-    
+
     img: img2,
     text: "Xaomi 11T Pro",
     text2: "Precio: 1.350.000",
@@ -456,8 +456,8 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   text-align: center;
   width: 1000px;
-  max-height: 70vh; 
-  overflow-y: auto; 
+  max-height: 70vh;
+  overflow-y: auto;
 }
 
 .grid {
@@ -472,6 +472,21 @@ img {
 
 .modal-fade-leave-active {
   transition: opacity 0.5s;
+}
+
+@media screen and (max-width: 485px) {
+
+  .cards {
+    padding: 0;
+  }
+
+  .titulo {
+    color: white;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 42%;
+  }
 }
 </style>
 
